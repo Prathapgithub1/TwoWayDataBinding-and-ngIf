@@ -1,0 +1,10 @@
+<p>structural-directives works!</p>
+
+<h1 *ngIf="status; then trueBlock else elseBlock"></h1>
+
+<ng-template #trueBlock>
+    <h1>True block is here</h1>
+</ng-template>
+<ng-template #elseBlock>
+    <h1>This is the elseBlock you know</h1>
+</ng-template>

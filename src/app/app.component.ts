@@ -7,4 +7,11 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'myApp1';
+  public data:string='';
+  clearData():any{
+    this.data='';
+    if(this.data ===""){
+      alert('dont click clear button when input empty')
+    }
+  }
 }
